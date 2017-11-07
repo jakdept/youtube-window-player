@@ -17,9 +17,11 @@
     "css": [
       "player.css"
     ],
-    // "js": [
-    //   "player.js"
-    // ],
+    "js": [
+      "thirdParty/jquery-3.2.1.min.js",
+      "thirdParty/debounce.js",
+      "player.js"
+    ],
     "matches": ["https://*.youtube.com/*"]
   }],
   "incognito": "split"
