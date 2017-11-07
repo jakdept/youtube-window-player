@@ -12,8 +12,6 @@ var hideMastheadFn = debounce(function () {
 
 // add listeners
 window.addEventListener("mousemove", showMasthead);
-// window.addEventListener("mousedown", showMasthead());
-// window.addEventListener("mouseup", showMasthead());
 window.addEventListener("click", showMasthead);
 window.addEventListener("wheel", showMasthead);
 window.addEventListener("keydown", showMasthead);
