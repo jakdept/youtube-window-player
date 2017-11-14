@@ -1,13 +1,13 @@
 function showMasthead() {
   hideMastheadFn();
-  $(" #masthead-container ").show();
+  $(" #masthead-container ").slideDown(400);
 }
 
 // adds the refresh warning to the page
 var hideMastheadFn = debounce(function () {
   console.log("youtube player tweak - hiding masthead");
-  $(" #masthead-container ").hide(400);
-}, 1000 * 5);
+  $(" #masthead-container ").slideUp(400);
+}, 1000 * 3);
 
 
 // add listeners
