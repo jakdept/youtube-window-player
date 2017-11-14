@@ -1,17 +1,15 @@
 {
-  // Required
   "manifest_version": 2,
   "name": "YouTube Window Player",
   "version": "0.1.0",
 
-  // Recommended
   "description": "Resize YouTube's HTML5 player to fully fit your browser window",
-  // "icons": {...},
+  "icons": {
+    "16": "assets/16.png",
+    "48": "assets/48.png",
+    "128": "assets/128.png"
+  },
 
-  // Pick one (or none)
-  // "page_action": {...},
-
-  // Optional
   "author": "Jack Hayhurst",
   "content_scripts": [{
     "css": [
